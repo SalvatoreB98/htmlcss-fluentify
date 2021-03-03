@@ -4,22 +4,173 @@
     padding: 0;
 }
 /* selettori di tipo */
+html{
+    font-family: 'Roboto', sans-serif;
+}
 header{
-    background-color: #0C325A;
+   background-color:  #0C325A;
+}
+nav{
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    padding-top: 50px;
+    height: 250px;
+    text-align: center;
+    color: #7CBB02;
+    font-size: 40px;
+}
+p{
+    margin-top: 10px;
+    color: #848484;
+    font-weight: 500;
+}
+/* classi clearfix */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
 }
 /* selettori di classe */
-.bar{
-    height: 80px;
-    width: 100%;
-}
 .wrap{
     width: 80%;
     margin: auto;
 }
+.logo-container{
+    transform:translateY(-12px);
+    padding: 25px;
+    float: left;
+}
 .float-left{
     float: left;
 }
-.logo-container{
-    padding-top: 20px;
+.float-right{
+    float: right;
+}
+.nav-left{
+    left: 0;
+}
+.nav-right{
+    right: 0;
+}
+.btn{
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-green{
+    display: inline-block;
+    background-color: #7CBB02;
+}
+.btn-white{
+    border: white 1px solid;
+}
+.horizontal-align{
+    top: 50%;
+}
+.nav-bar{
+    width: 75%;
+    padding: 25px;
+    position: relative;
+    float: left;
+    transform: translateY(1px);
+
+}
+.hero{
+    background-color:  #0C325A;
+}
+.hero-img{
+    background-image: url(img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.row{
+
+}
+
+.col{
+    float: left;
     height: 100%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    padding:3.3%;
+    width: 30%;
+}
+.padding{
+    padding: 100px 0px;
+}
+.strip{
+    background-color: #D3D3D3;
+    padding: 25px;
+    text-align: center;
+}
+.img-container{
+    height: 250px;
+    position: relative;
+    text-align: center;
+}
+.line{
+    width: 30%;
+    margin: auto;
+    border-top: 2px solid grey;
+}
+.big-img-container{
+    height: 500px;
+}
+.mountain{
+    padding:100px;
+}
+.padding-col-2{
+    padding-left: 75px;
+}
+/* selettori avanzati */
+nav li{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav-bar .btn{
+    padding: 10px;
+}
+.hero .btn{
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 13px;
+}
+.img-container img{
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+.col-3 p{
+    text-align: center;
+}
+.mountain a{
+    margin-top: 25px;
+    color: #5A89BE;
+    text-decoration: underline ;
+    font-weight: 500;
+    display: inline-block;
+}
+.mountain h3{
+    font-size: 3rem;
+}
+.mountain p{
+    font-size: 1.5rem;
 }
