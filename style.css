@@ -147,7 +147,12 @@ footer{
     padding-left: 75px;
 }
 .help{
-    
+    position: fixed;
+    bottom:7%;
+    right: 5%;
+    z-index: 3;
+    background-color: #7CBB02;
+    padding: 10px;
 }
 /* selettori avanzati */
 nav li{
