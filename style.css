@@ -27,7 +27,7 @@ h3{
 }
 h4{
     padding-top: 50px;
-    height: 250px;
+
     text-align: center;
     color: #7CBB02;
     font-size: 40px;
@@ -36,6 +36,11 @@ p{
     margin-top: 10px;
     color: #848484;
     font-weight: 500;
+}
+footer{
+    background-color: #D3D3D3;
+    height: 200px;
+    position: relative;
 }
 /* classi clearfix */
 .clearfix{
@@ -132,12 +137,17 @@ p{
 }
 .big-img-container{
     height: 500px;
+    text-align: center;
+
 }
 .mountain{
     padding:100px;
 }
 .padding-col-2{
     padding-left: 75px;
+}
+.help{
+    
 }
 /* selettori avanzati */
 nav li{
@@ -158,6 +168,11 @@ nav li{
     object-position: center;
     object-fit: contain;
 }
+.big-img-container img{
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
 .col-3 p{
     text-align: center;
 }
@@ -173,4 +188,44 @@ nav li{
 }
 .mountain p{
     font-size: 1.5rem;
+}
+footer h5 {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer form{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* FORM---------------------------- */
+form{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+label{
+    color:gray; 
+    margin-right: 20px;
+}
+form .btn{
+    padding: 30px;
+    border: none;
+}
+select{
+    width: 200px;
+    background-color: #D3D3D3;
+    border:none;
+    border-bottom: 2px solid gray;
+    color: gray;
+    margin-right: 20px ;
+}
+/* utilities */
+.fill-parent{
+    height: 100%;
+}
+.relative{
+    position: relative;
 }
