@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* selettori di tipo */
+header{
+    background-color: #0C325A;
+}
+/* selettori di classe */
+.bar{
+    height: 80px;
+    width: 100%;
+}
+.wrap{
+    width: 80%;
+    margin: auto;
+}
+.float-left{
+    float: left;
+}
+.logo-container{
+    padding-top: 20px;
+    height: 100%;
+}
