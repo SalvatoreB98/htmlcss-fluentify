@@ -27,13 +27,13 @@ h3{
 }
 h4{
     padding-top: 50px;
-
+    padding-bottom: 50px;
     text-align: center;
     color: #7CBB02;
     font-size: 40px;
 }
 p{
-    margin-top: 10px;
+    margin-top: 25px;
     color: #848484;
     font-weight: 500;
 }
@@ -118,8 +118,8 @@ footer{
     width: 50%;
 }
 .col-3{
-    padding:3.3%;
-    width: 30%;
+    padding:3%;
+    width: 33%;
 }
 .padding{
     padding: 100px 0px;
@@ -136,6 +136,7 @@ footer{
 }
 .line{
     width: 30%;
+    margin-top:  25px;
     margin: auto;
     border-top: 2px solid grey;
 }
